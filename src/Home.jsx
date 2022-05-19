@@ -1,7 +1,13 @@
 import React from 'react'
-
+import Form from './SearchForm'
+import Movies from './Movies'
 const Home = () => {
-    return (
-        <div>HOME component</div>
-    )
+  return (
+    <main>
+      <Form />
+      <Movies />
+    </main>
+  )
 }
+
+export default Home
